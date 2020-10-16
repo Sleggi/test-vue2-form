@@ -12,4 +12,4 @@
 
 
 ### Ссылка на форму
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [test-vue2-form](https://test-form-vue.web.app/).
