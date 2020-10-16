@@ -6,7 +6,7 @@
         <div class="attributes__top">
           <FormulateInput
             name="secondName"
-            label="Фамилия"
+            label="Фамилия *"
             validation="^required|between:1,30"
             :validation-messages="{
               required: 'Поле не может быть пустым',
@@ -15,7 +15,7 @@
           />
           <FormulateInput
             name="name"
-            label="Имя"
+            label="Имя *"
             validation="^required|between:1,30"
             :validation-messages="{
               required: 'Поле не может быть пустым',
@@ -24,7 +24,7 @@
           />
           <FormulateInput
             name="patronymic"
-            label="Отчество"
+            label="Отчество *"
             validation="^required|between:1,30"
             :validation-messages="{
               required: 'Поле не может быть пустым',
@@ -36,7 +36,7 @@
           <FormulateInput
             type="date"
             name="birthdate"
-            label="Дата рождения"
+            label="Дата рождения *"
             validation="^required|before:10/10/2020"
             :validation-messages="{
               required: 'Заполните поле',
@@ -46,7 +46,7 @@
           />
           <FormulateInput
             name="phone"
-            label="Номер телефона"
+            label="Номер телефона *"
             validation="^required|number|between:1,11,length|starts_with:7"
             :validation-messages="{
               required: 'Поле не может быть пустым',
@@ -128,7 +128,7 @@
       />
       <FormulateInput
         name="city"
-        label="Город"
+        label="Город *"
         validation="^required|between:1,20"
         :validation-messages="{
           required: 'Поле не может быть пустым',
@@ -161,8 +161,8 @@
           type3: 'Вод.удостоверение',
         }"
         type="select"
-        placeholder="Тип документа"
-        label="Тип документа"
+        placeholder="Тип документа "
+        label="Тип документа *"
         name="documentType"
         validation="^required"
         :validation-messages="{
@@ -189,7 +189,7 @@
       <FormulateInput
         type="date"
         name="documentDate"
-        label="Дата выдачи"
+        label="Дата выдачи *"
         validation="^required|before:10/10/2020"
         :validation-messages="{
           required: 'Заполните поле',
