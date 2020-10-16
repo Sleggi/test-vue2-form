@@ -1,4 +1,4 @@
-### Тестовое задание для Арканит 
+### Тестовое задание для арканит 
 
 #### technologies, libraries used in this project - html, css, vue, vue formulate, Vue-multiselect
 ##### functionality: форма создания Клиента. Основная технология по выполнению задания - Vue.js.
