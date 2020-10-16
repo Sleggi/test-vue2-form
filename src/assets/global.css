@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Circe";
+    font-style: normal;
+    src: url(../fonts/Circe-Regular.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Circe';
+}
+
+
+body {
+    background: #fec107;
+    padding: 0 10px;
+}
