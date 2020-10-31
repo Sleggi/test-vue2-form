@@ -1,8 +1,8 @@
-### Тестовое задание для арканит 
+### Тестовое задание для арканит <img align="left" alt="Vue" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png" />
 
 #### technologies, libraries used in this project - html, css, vue, vue formulate, Vue-multiselect
 ##### functionality: форма создания Клиента. Основная технология по выполнению задания - Vue.js.
-<img align="left" alt="Vue" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png" />
+
 Описание задания:
 Дизайн и внешний вид формы вы выбираете самостоятельно.
 Необходимо осуществлять валидацию данных формы и выводить ошибки пользователю при их наличии. Место выведения, формат и текст вы определяете самостоятельно.
